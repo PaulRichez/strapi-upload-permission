@@ -11,8 +11,8 @@ module.exports = () => {
       strapi.log.error(`Plugin upload-permission :::: ${error}`);
     }
     const pluginConfig = strapi.config.get('plugin.upload-permission');
-    if (pluginConfig && pluginConfig.downloadcallback) {
-      return pluginConfig.downloadcallback(ctx, next);
+    if (pluginConfig && pluginConfig.downloadCallback) {
+      return pluginConfig.downloadCallback(ctx, next);
     }
     await next();
   };

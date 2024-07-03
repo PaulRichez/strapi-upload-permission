@@ -34,15 +34,15 @@ yarn add strapi-upload-permission
 'upload-permission': {
     enabled: true,
     config: {
-      "content-manager-visible": { // tab "Content Manager"
+      "content-manager-visible": { // tab "Content Manager" @optionnal
         'file': true, // add the file collection
         'folder': true, // add the folder collection
       },
-      "content-type-builder": { // tab "Content-Type Builder"
+      "content-type-builder": { // tab "Content-Type Builder" @optionnal
         'file': true, // add the file collection
         'folder': true, // add the folder collection
       },
-      "downloadcallback": async (ctx, next) => { 
+      "downloadCallback": async (ctx, next) => { 
         // callback from middleware on /upload/(*)
         // you have a full access like a normal middleware
         if (ctx.state.user) { // you have the user in ctx.state.user (if token)
@@ -53,6 +53,8 @@ yarn add strapi-upload-permission
     }
   },
 ```
+
+content-manager-visible & content-type-builder are just key for help you, if you prefer add some attributes on models
 
 ## 🐛 &nbsp; _Bugs_
 
