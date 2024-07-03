@@ -8,7 +8,9 @@ A plugin for [Strapi](https://github.com/strapi/strapi) that provides the abilit
 
 ## 🚀 &nbsp; _Overview_
 
-this plugin gives the possibility to protect the file download route which is normally public
+this plugin gives the possibility to protect the file download route which is normally public.
+
+Test : 4.25.1 => ok | 4.3.6 => ok (node18 | node16)
 
 ## ⏳ &nbsp; _Installation_
 
