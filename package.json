@@ -1,0 +1,49 @@
+{
+  "name": "strapi-upload-permission",
+  "version": "1.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "upload-permission",
+    "description": "Description of Upload Permission plugin",
+    "kind": "plugin",
+    "displayName": "Upload Permission"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "author": {
+    "name": "Paul Richez",
+    "url": "https://github.com/PaulRichez"
+  },
+  "maintainers": [
+    {
+      "name": "Paul Richez",
+      "url": "https://github.com/PaulRichez"
+    }
+  ],
+  "homepage": "https://github.com/PaulRichez/strapi-upload-permission#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulRichez/strapi-upload-permission.git"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
