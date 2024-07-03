@@ -40,7 +40,7 @@ yarn add strapi-upload-permission
         'file': true, // add the file collection
         'folder': true, // add the folder collection
       },
-      "downloadCalback": async (ctx, next) => { 
+      "downloadcallback": async (ctx, next) => { 
         // callback from middleware on /upload/(*)
         // you have a full access like a normal middleware
         if (ctx.state.user) { // you have the user in ctx.state.user (if token)
