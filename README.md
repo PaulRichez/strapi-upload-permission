@@ -4,7 +4,7 @@
 A plugin for [Strapi](https://github.com/strapi/strapi) that provides the ability to secure the public route upload/(*)
 
 [![Downloads](https://img.shields.io/npm/dm/strapi-upload-permission?style=for-the-badge)](https://www.npmjs.com/package/strapi-upload-permission)
-[![Install size](https://img.shields.io/npm/l/strapi-upload-permission?style=for-the-badge)](https://github.com/PaulRichez/strapi4-plugin-route-permission/blob/main/Licence)
+[![Install size](https://img.shields.io/npm/l/strapi-upload-permission?style=for-the-badge)](https://github.com/PaulRichez/strapi-upload-permission/blob/main/Licence)
 
 ## 🚀 &nbsp; _Overview_
 
